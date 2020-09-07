@@ -1,0 +1,23 @@
+Assignment 1 of day 3:
+
+a=int(input("Enter the altitude"))
+if (a<1000):
+   print("Safe to land the plane")
+elif (1000<a<5000):
+   print("Bring down to 1000")
+elif (a>5000):
+   print("turn around")
+
+
+
+
+Assignment 2 of day 3:
+
+print("Prime numbers between", '1', "and", '200', "are:")
+for n in range(1,200):
+   if n > 1:
+       for i in range(2, n):
+           if (n% i) == 0:
+               break
+       else:
+           print(n)
